@@ -7,13 +7,13 @@ $(document).ready(function(){
         function(){
             $(this).closest('.prev-img').find('.overlay').slideToggle();
             $(this).closest('.prev-img').find('.theme').removeClass('hidden');
-            $(this).closest('.prev-img').find('.img-overlay').slideToggle('slow','swing');
+            $(this).closest('.prev-img').find('.img-overlay').slideToggle('fast','swing');
 
         },
         function(){
             $(this).closest('.prev-img').find('.overlay').slideToggle();
             $(this).closest('.prev-img').find('.theme').addClass('hidden');
-            $(this).closest('.prev-img').find('.img-overlay').slideToggle('slow','swing');
+            $(this).closest('.prev-img').find('.img-overlay').slideToggle('fast','swing');
         }
     );
 
