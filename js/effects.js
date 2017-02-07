@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function(){
-    $('.prev-img').hover(
+/*    $('.prev-img').hover(
         function(){
             $(this).closest('.prev-img').find('.overlay').slideToggle();
             $(this).closest('.prev-img').find('.theme').removeClass('hidden');
@@ -15,7 +15,7 @@ $(document).ready(function(){
             $(this).closest('.prev-img').find('.theme').addClass('hidden');
             $(this).closest('.prev-img').find('.img-overlay').slideToggle('fast','swing');
         }
-    );
+    );*/
 
 
     $(function() {
