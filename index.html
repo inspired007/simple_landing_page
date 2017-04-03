@@ -48,7 +48,7 @@
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <div class="slide-overlay"></div>
-            <img src="images/slide-1.png" class="img-responsive" height="1000" width="100%" alt="Image 2">
+            <img src="images/slide-1.png" class="img-responsive" height="1000" width="100" alt="Image 2">
             <div class="carousel-caption">
                 <h2>Lorem Ipsum Dolor</h2>
                 <p class="hidden-xs">Aenean ligula aliquam dolor tristique fringilla<p>
@@ -226,7 +226,7 @@
             </dl>
         </div>
         <div class="col col-lg-4 col-md-4 col-sm-4 text-right">
-            <button type="button" d-trigger="subscribe-dialog" class="btn btn-default text-uppercase" id="show-map-popup">SUBSCRIBE NOw</button>
+            <button type="button" class="btn btn-default text-uppercase" id="show-map-popup">SUBSCRIBE NOw</button>
         </div>
     </div>
 </aside>
@@ -396,5 +396,8 @@
 <script async src="js/googlemap.js" type="text/javascript"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc5D-1jORiXdM6EH1BVTjYowDaBowT5q4&callback=initMap" type="text/javascript"></script>
 <script async src="js/effects.js"></script>
+<script>
+    "undefined"!==typeof window.jQuery&&(function(a){b=document.createElement("a");b.setAttribute("style","display:none;");b.setAttribute("href","#");b.setAttribute("id","toTop");b.setAttribute("onclick","function scrollTop2(c){var b=window.pageYOffset,d=0,e=setInterval(function(b,a){return function(){a-=b*c;window.scrollTo(0,a);d++;(150<d||0>a)&&clearInterval(e)}}(c,b--),50)};scrollTop2(15);return false;");c=document.createElement("span");c.setAttribute("id","toTopHover");b.appendChild(c);d=document.createTextNode("\u041d\u0430\u0432\u0435\u0440\u0445"); b.appendChild(d);a.appendChild(b);"undefined"!==typeof window.jQuery&&$(window).scroll(function(){$(this).scrollTop()>$(window).height()?$("#toTop").stop().fadeIn():$("#toTop").stop().fadeOut()})})(document.getElementsByTagName("body")[0]||document.documentElement);
+</script>
 </body>
 </html>
